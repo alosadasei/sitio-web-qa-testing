@@ -436,3 +436,23 @@ figcaption {
     margin-top: var(--spacing-sm);
     font-style: italic;
 }
+
+/* ========== DARK MODE ========== */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-text: #f3f4f6;
+        --color-text-light: #d1d5db;
+        --color-bg: #111827;
+        --color-bg-white: #1f2937;
+        --color-border: #374151;
+    }
+
+    body {
+        background-color: var(--color-bg);
+        color: var(--color-text);
+    }
+
+    nav a {
+        color: var(--color-text);
+    }
+}
