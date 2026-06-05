@@ -169,6 +169,15 @@ nav a:focus {
     background-color: var(--color-bg);
 }
 
+.skip-link {
+    position: absolute;
+    left: -9999px;
+}
+
+.skip-link:focus {
+    left: 0;
+}
+
 /* ========== MAIN CONTENT ========== */
 
 main {
